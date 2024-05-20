@@ -1,0 +1,39 @@
+1. Cara Kerja LCD:
+LCD (Liquid Crystal Display) bekerja berdasarkan prinsip mengontrol cahaya melalui kristal cair yang diapit di antara dua filter polarisasi. 
+Backlight: Sumber cahaya, biasanya LED, memberikan cahaya latar ke layar.
+Filter Polarisasi Pertama: Cahaya dari backlight melewati filter polarisasi pertama, mengubahnya menjadi cahaya terpolarisasi.
+Kristal Cair: Cahaya terpolarisasi melewati lapisan kristal cair. Ketika tegangan diterapkan, orientasi kristal cair berubah, mengontrol arah cahaya yang melewatinya.
+Filter Polarisasi Kedua: Cahaya yang telah diatur oleh kristal cair melewati filter polarisasi kedua. Jika orientasi kristal memungkinkan cahaya melewati filter ini, pixel tersebut akan terlihat terang; jika tidak, akan terlihat gelap.
+Pixel dan Warna: Setiap pixel terdiri dari tiga sub-pixel (merah, hijau, biru - RGB). Dengan mengatur tegangan pada setiap sub-pixel, berbagai warna bisa dihasilkan.
+
+2. Cara Kerja LED:
+LED (Light Emitting Diode) adalah teknologi tampilan yang menggunakan dioda pemancar cahaya untuk menghasilkan gambar. 
+Dioda Pemancar Cahaya: LED menggunakan dioda semikonduktor yang memancarkan cahaya saat arus listrik mengalir melaluinya.
+Warna dan Intensitas: Setiap pixel memiliki sub-pixel merah, hijau, dan biru (RGB). Mengatur intensitas tiap sub-pixel menghasilkan berbagai warna.
+Kontrol Pixel: Pixel diatur dalam matriks, dan setiap pixel dikontrol secara individual oleh sirkuit penggerak.
+Modulasi Cahaya: Teknik PWM (Pulse Width Modulation) mengontrol kecerahan dengan mengatur durasi nyala dan mati dari arus listrik.
+
+3. Contoh penggunaan pemrograman sistem tertanam pada kehidupan sehari hari minimal 5:
+- Penerangan Pintar: Lampu pintar yang dapat diatur melalui aplikasi smartphone atau perintah suara menggunakan sistem tertanam untuk mengontrol intensitas dan warna pencahayaan.
+- Sistem Navigasi GPS: Mobil modern sering dilengkapi dengan sistem GPS tertanam yang memberikan petunjuk arah dan informasi lalu lintas secara real-time.
+- Fitness Tracker: Perangkat ini memantau berbagai metrik kesehatan seperti jumlah langkah, kualitas tidur, dan kalori yang terbakar dengan menggunakan sistem tertanam untuk pengolahan data real-time.
+- Sistem Irigasi Otomatis: Menggunakan sensor kelembaban tanah dan sistem tertanam untuk mengatur penyiraman tanaman secara otomatis berdasarkan kebutuhan air.
+- Lampu Lalu Lintas Cerdas: Menggunakan sistem tertanam untuk mengatur waktu sinyal berdasarkan kondisi lalu lintas real-time yang diambil dari sensor jalan.
+
+4. Jelaskan Project Kelompok yang akan dibuat pada Mata Kuliah Pemrograman Sistem Tertanam
+Pengendali Penutup Jendela Otomatis saat Hujan:
+Komponen yang Diperlukan:
+- NodeMCU sebagai otak sistem.
+- Sensor hujan untuk mendeteksi air hujan.
+- Motor atau servomotor untuk menggerakkan penutup jendela.
+- Penutup jendela atau tirai yang terhubung dengan motor.
+- Koneksi Wi-Fi untuk mengirimkan notifikasi atau mengakses sistem secara jarak jauh.
+
+Cara Kerja:
+- Sensor Hujan Mendeteksi Hujan: Sensor hujan akan mengirimkan sinyal ke NodeMCU ketika air hujan terdeteksi.
+- NodeMCU Mengaktifkan Motor: Setelah mendapatkan sinyal dari sensor hujan, NodeMCU akan mengaktifkan motor atau servomotor yang terhubung ke penutup jendela.
+- Motor Menutup Penutup Jendela: Motor akan menggerakkan penutup jendela untuk menutup jendela secara otomatis.
+- Sistem Berjalan Otomatis: Setelah hujan berhenti, NodeMCU dapat diprogram untuk menunggu beberapa waktu sebelum membuka kembali penutup jendela. Ini akan memastikan bahwa jendela tetap tertutup bahkan jika hujan turun dalam waktu singkat.
+
+
+
